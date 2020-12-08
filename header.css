@@ -1,0 +1,47 @@
+/* style Header */
+.side-bar {
+  width: 10vw;
+  background: #9e938f;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 90px;
+}
+
+.list-item {
+  padding-bottom: 20px;
+}
+
+.list-link {
+  font-family: Times;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.right-header {
+  width: 90vw;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 87px;
+  margin-top: 84px;
+  max-width: 1344px;
+  margin-left: 5%;
+}
+
+.header-blog {
+  display: flex;
+}
